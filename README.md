@@ -27,7 +27,7 @@ dependencyResolutionManagement {
 ```
 
 ### 2. Add the dependency
-In your app-level `build.gradle.kts`, add the following dependency. Replace `Tag` with the latest release version or commit hash:
+In your app-level `build.gradle.kts`, add the following dependency. Replace `version` with the latest release version or commit hash:
 
 ```kotlin
 dependencies {
