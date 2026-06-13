@@ -34,7 +34,6 @@ dependencies {
     implementation("com.github.senovative:panorama-stitch-android-sdk:<version>")
 }
 ```
-*(Note: Replace `USERNAME` with your GitHub username once the repository is pushed).*
 
 ## Usage
 
