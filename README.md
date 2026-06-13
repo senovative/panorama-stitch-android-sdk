@@ -31,7 +31,7 @@ In your app-level `build.gradle.kts`, add the following dependency. Replace `Tag
 
 ```kotlin
 dependencies {
-    implementation("com.github.USERNAME:panorama-stitch-android-sdk:Tag")
+    implementation("com.github.senovative:panorama-stitch-android-sdk:<version>")
 }
 ```
 *(Note: Replace `USERNAME` with your GitHub username once the repository is pushed).*
@@ -69,10 +69,17 @@ PanoramaCameraScreen(
 
 For a complete working example, please check the `:sample` module in this repository.
 
-## Requirements
-- Minimum SDK: 24 (or as defined in your setup)
-- Jetpack Compose
-- OpenCV (Included in the SDK dependencies)
+## Tech Stack & Requirements
+- **Language**: Kotlin 2.4.0
+- **Build System**: Gradle with AGP 9.2.0
+- **JDK Version**: Java 17
+- **Android SDK**: 
+  - Minimum SDK: 24
+  - Target / Compile SDK: 37
+- **Core Libraries**:
+  - Jetpack Compose (BOM 2026.05.01)
+  - CameraX (1.6.1)
+  - OpenCV (4.13.0 - Included via dependencies)
 
 ## Contributing
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
